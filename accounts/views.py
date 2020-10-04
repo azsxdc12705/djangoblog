@@ -3,10 +3,12 @@ from django.shortcuts import redirect, render
 from django.contrib.auth.models import User
 from django.contrib import auth
 
-# def signup(request):
+def signup(request):
     # if request.method == "POST":
-        # if request.post
+    # else:
+        return render(request, 'accounts/signup.html')
 
-
-# def signin(request):
-    # if request.method == "POST":
+def signin(request):
+    # if request.method == "POST":  
+    # else:
+        return render(request, 'accounts/signin.html')
